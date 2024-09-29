@@ -10,7 +10,9 @@ All components are docker-based
 #### To start the application
 
 Step 1: Build the application 
+
     docker build .
+
 The dot "." at the end of the command denotes location of the Dockerfile.
 
 Step 2: start mongodb
@@ -24,5 +26,5 @@ Step 3: go to postman for ease
 #### To build a docker image from the application
 
     docker build -t express-app:1.0 .  
-    
+
 The dot "." at the end of the command denotes location of the Dockerfile.
