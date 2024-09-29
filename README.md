@@ -20,8 +20,10 @@ Step 2: start mongodb
     docker-compose -f docker-compose.yaml up
 
 Step 3: go to postman for ease
-    a) GET - http://localhost:4000/products
-    b) POST - http://localhost:4000/products
+
+    GET - http://localhost:4000/products
+    
+    POST - http://localhost:4000/products
 
 #### To build a docker image from the application
 
